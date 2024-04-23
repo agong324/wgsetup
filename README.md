@@ -1,6 +1,6 @@
 # WireGuard installer - clone of angristan's wireguard-install
 
-
+see [Angristan](https://github.com/angristan/wireguard-install) for the original repo
 ![Lint](https://github.com/angristan/wireguard-install/workflows/Lint/badge.svg)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/angristan)
 
@@ -31,9 +31,9 @@ Supported distributions:
 Download and execute the script. Answer the questions asked by the script and it will take care of the rest.
 
 ```bash
-curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh
-chmod +x wireguard-install.sh
-./wireguard-install.sh
+curl -O https://raw.githubusercontent.com/agong324/wgsetup/master/wgsetup.sh
+chmod +x wgsetup.sh
+./wgsetup.sh
 ```
 
 It will install WireGuard (kernel module and tools) on the server, configure it, create a systemd service and a client configuration file.
